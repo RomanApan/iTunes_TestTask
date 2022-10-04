@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		4DE0685428EC9945001B743A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0685328EC9945001B743A /* AppDelegate.swift */; };
 		4DE0685628EC9945001B743A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0685528EC9945001B743A /* SceneDelegate.swift */; };
-		4DE0685828EC9945001B743A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0685728EC9945001B743A /* ViewController.swift */; };
+		4DE0685828EC9945001B743A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0685728EC9945001B743A /* AuthViewController.swift */; };
 		4DE0685B28EC9945001B743A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE0685928EC9945001B743A /* Main.storyboard */; };
 		4DE0685D28EC9946001B743A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE0685C28EC9946001B743A /* Assets.xcassets */; };
 		4DE0686028EC9946001B743A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE0685E28EC9946001B743A /* LaunchScreen.storyboard */; };
+		4DE0686A28ECA48D001B743A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0686928ECA48D001B743A /* SignUpViewController.swift */; };
+		4DE0686C28ECA4A6001B743A /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0686B28ECA4A6001B743A /* AlbumsViewController.swift */; };
+		4DE0686E28ECA4C3001B743A /* DetailAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0686D28ECA4C3001B743A /* DetailAlbumsViewController.swift */; };
+		4DE0687028ECA4D7001B743A /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0686F28ECA4D7001B743A /* UserInfoViewController.swift */; };
+		4DE0687728ECA7F8001B743A /* UIStackView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0687628ECA7F8001B743A /* UIStackView + extension.swift */; };
+		4DE0687928ECD218001B743A /* UIViewController + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0687828ECD218001B743A /* UIViewController + extension.swift */; };
+		4DE0687B28ECD4FC001B743A /* AlbumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0687A28ECD4FC001B743A /* AlbumsTableViewCell.swift */; };
+		4DE0687D28ECE27E001B743A /* SongsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0687C28ECE27E001B743A /* SongsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DE0685028EC9945001B743A /* iTunes_TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunes_TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE0685328EC9945001B743A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DE0685528EC9945001B743A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DE0685728EC9945001B743A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DE0685728EC9945001B743A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		4DE0685A28EC9945001B743A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DE0685C28EC9946001B743A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE0685F28EC9946001B743A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DE0686128EC9946001B743A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE0686928ECA48D001B743A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4DE0686B28ECA4A6001B743A /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		4DE0686D28ECA4C3001B743A /* DetailAlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAlbumsViewController.swift; sourceTree = "<group>"; };
+		4DE0686F28ECA4D7001B743A /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		4DE0687628ECA7F8001B743A /* UIStackView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + extension.swift"; sourceTree = "<group>"; };
+		4DE0687828ECD218001B743A /* UIViewController + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + extension.swift"; sourceTree = "<group>"; };
+		4DE0687A28ECD4FC001B743A /* AlbumsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewCell.swift; sourceTree = "<group>"; };
+		4DE0687C28ECE27E001B743A /* SongsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,79 @@
 		4DE0685228EC9945001B743A /* iTunes_TestTask */ = {
 			isa = PBXGroup;
 			children = (
+				4DE0686728ECA457001B743A /* Applications */,
+				4DE0686828ECA46F001B743A /* Controllers */,
+				4DE0687228ECA4F9001B743A /* Extensions */,
+				4DE0687328ECA50C001B743A /* Resources */,
+				4DE0687428ECA533001B743A /* Products */,
+			);
+			path = iTunes_TestTask;
+			sourceTree = "<group>";
+		};
+		4DE0686728ECA457001B743A /* Applications */ = {
+			isa = PBXGroup;
+			children = (
 				4DE0685328EC9945001B743A /* AppDelegate.swift */,
 				4DE0685528EC9945001B743A /* SceneDelegate.swift */,
-				4DE0685728EC9945001B743A /* ViewController.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		4DE0686828ECA46F001B743A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0687128ECA4DD001B743A /* Cells */,
+				4DE0685728EC9945001B743A /* AuthViewController.swift */,
+				4DE0686928ECA48D001B743A /* SignUpViewController.swift */,
+				4DE0686B28ECA4A6001B743A /* AlbumsViewController.swift */,
+				4DE0686D28ECA4C3001B743A /* DetailAlbumsViewController.swift */,
+				4DE0686F28ECA4D7001B743A /* UserInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4DE0687128ECA4DD001B743A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0687A28ECD4FC001B743A /* AlbumsTableViewCell.swift */,
+				4DE0687C28ECE27E001B743A /* SongsCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4DE0687228ECA4F9001B743A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0687528ECA7D2001B743A /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4DE0687328ECA50C001B743A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DE0687428ECA533001B743A /* Products */ = {
+			isa = PBXGroup;
+			children = (
 				4DE0685928EC9945001B743A /* Main.storyboard */,
 				4DE0685C28EC9946001B743A /* Assets.xcassets */,
 				4DE0685E28EC9946001B743A /* LaunchScreen.storyboard */,
 				4DE0686128EC9946001B743A /* Info.plist */,
 			);
-			path = iTunes_TestTask;
+			path = Products;
+			sourceTree = "<group>";
+		};
+		4DE0687528ECA7D2001B743A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0687628ECA7F8001B743A /* UIStackView + extension.swift */,
+				4DE0687828ECD218001B743A /* UIViewController + extension.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE0685828EC9945001B743A /* ViewController.swift in Sources */,
+				4DE0685828EC9945001B743A /* AuthViewController.swift in Sources */,
+				4DE0687028ECA4D7001B743A /* UserInfoViewController.swift in Sources */,
 				4DE0685428EC9945001B743A /* AppDelegate.swift in Sources */,
+				4DE0687B28ECD4FC001B743A /* AlbumsTableViewCell.swift in Sources */,
+				4DE0686E28ECA4C3001B743A /* DetailAlbumsViewController.swift in Sources */,
+				4DE0686A28ECA48D001B743A /* SignUpViewController.swift in Sources */,
+				4DE0687928ECD218001B743A /* UIViewController + extension.swift in Sources */,
 				4DE0685628EC9945001B743A /* SceneDelegate.swift in Sources */,
+				4DE0686C28ECA4A6001B743A /* AlbumsViewController.swift in Sources */,
+				4DE0687728ECA7F8001B743A /* UIStackView + extension.swift in Sources */,
+				4DE0687D28ECE27E001B743A /* SongsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +377,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AF9W25XMD8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iTunes_TestTask/Info.plist;
+				INFOPLIST_FILE = iTunes_TestTask/Products/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +390,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Home.iTunes-TestTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +408,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AF9W25XMD8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iTunes_TestTask/Info.plist;
+				INFOPLIST_FILE = iTunes_TestTask/Products/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +421,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Home.iTunes-TestTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
