@@ -21,6 +21,7 @@
 		4DE0687928ECD218001B743A /* UIViewController + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0687828ECD218001B743A /* UIViewController + extension.swift */; };
 		4DE0687B28ECD4FC001B743A /* AlbumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0687A28ECD4FC001B743A /* AlbumsTableViewCell.swift */; };
 		4DE0687D28ECE27E001B743A /* SongsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0687C28ECE27E001B743A /* SongsCollectionViewCell.swift */; };
+		4DE0687F28EDB98B001B743A /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0687E28EDB98B001B743A /* String + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4DE0687828ECD218001B743A /* UIViewController + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + extension.swift"; sourceTree = "<group>"; };
 		4DE0687A28ECD4FC001B743A /* AlbumsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewCell.swift; sourceTree = "<group>"; };
 		4DE0687C28ECE27E001B743A /* SongsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DE0687E28EDB98B001B743A /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				4DE0687528ECA7D2001B743A /* UIKit */,
+				4DE0687E28EDB98B001B743A /* String + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				4DE0685828EC9945001B743A /* AuthViewController.swift in Sources */,
 				4DE0687028ECA4D7001B743A /* UserInfoViewController.swift in Sources */,
+				4DE0687F28EDB98B001B743A /* String + Extension.swift in Sources */,
 				4DE0685428EC9945001B743A /* AppDelegate.swift in Sources */,
 				4DE0687B28ECD4FC001B743A /* AlbumsTableViewCell.swift in Sources */,
 				4DE0686E28ECA4C3001B743A /* DetailAlbumsViewController.swift in Sources */,
